@@ -20,8 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
-
+# SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'django-insecure-eo(pkf)om6prryc3##zo-amvm_1%z*e^r2zk$y#7*k^b*lu+wr'  # Only for testing CircleCI
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
